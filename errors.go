@@ -286,3 +286,7 @@ func Cause(err error) error {
 	}
 	return err
 }
+
+func SayHello() {
+	fmt.Println("Hey Sid, welcome to the remote module.")
+}
