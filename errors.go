@@ -291,4 +291,5 @@ func Cause(err error) error {
 
 func SayHello() {
 	fmt.Println("Hey Sid, welcome to the remote module.")
+	fmt.Println("Hey Sid, welcome to the remote module2.")
 }
