@@ -100,6 +100,8 @@ import (
 // New returns an error with the supplied message.
 // New also records the stack trace at the point it was called.
 func New(message string) error {
+
+	SayHello()
 	return &fundamental{
 		msg:   message,
 		stack: callers(),
